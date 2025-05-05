@@ -1,0 +1,13 @@
+{
+  "name": "mautic/greenperk",
+  "description": "Green Perk Email Theme by Ricardo Freire",
+  "type": "mautic-theme",
+  "keywords": ["mautic","theme"],
+  "extra": {
+    "install-directory-name": "greenperk"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "mautic/core-lib": "^5.0"
+  }
+}

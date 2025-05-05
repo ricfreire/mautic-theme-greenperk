@@ -1,0 +1,76 @@
+<mjml>
+  <mj-head>
+    <mj-font name="DM Sans" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="'DM Sans', Arial, sans-serif"></mj-all>
+    </mj-attributes>
+    <mj-style>
+      body { font-family: 'DM Sans', Arial, sans-serif; }
+      p { margin: 0px 0px 0px 0px !important; }
+      .gp-text a { color: inherit !important; text-decoration: underline; }
+    </mj-style>
+  </mj-head>
+  <mj-body width="400px" background-color="#ffffff">
+    <!-- Webview tag -->
+    <mj-section background-color="transparent" padding="10px 20px 15px 20px">
+      <mj-column>
+        <mj-text font-family="'DM Sans', Arial, sans-serif" font-weight="500" color="#1F446C" font-size="12px" padding="0px" line-height="14px" align="center" css-class="gp-text">{webview_text}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Logo + Intro -->
+    <mj-section background-color="#C4ECFF" padding="30px 40px 30px 40px">
+      <mj-column width="100%" padding="0px">
+        <mj-image width="120px" src="{{ getAssetUrl('themes/'~template~'/assets/logo.png', null, null, true ) }}" padding="0px" />
+        </mj-image>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text padding="0px" font-size="34px" line-height="42px" font-weight="900" letter-spacing="-1px" color="#1F446C" align="center">John, thanks for signing up!</mj-text>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text padding="0px" font-weight="500" font-size="16px" line-height="21px" color="#1F446C" align="center">You're officially part of the family, and that comes with perks. Starting now, your next order includes a free planner as our way of saying thanks!</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Image Hero -->
+    <mj-section background-color="#C4ECFF" padding="0px">
+      <mj-column width="100%">
+        <mj-image src="{{ getAssetUrl('themes/'~template~'/assets/hero.png', null, null, true ) }}" padding="0px">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Sustainability -->
+    <mj-section background-color="#46CC82" padding="30px 40px 20px 40px">
+      <mj-column width="100%" padding="0px">
+        <mj-text padding="0px" font-size="34px" line-height="42px" font-weight="900" letter-spacing="-1px" color="#fff" align="center">Where design meets sustainability</mj-text>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text padding="0px" font-weight="500" font-size="16px" line-height="21px" color="#0B3D20" align="center">All our products are 100% eco-friendly, made from recycled materials – even the shipping boxes. Every order you place helps us take one small step towards a greener planet.</mj-text>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-button href="https://crafting.email" inner-padding="10px 20px" padding="0px" font-size="16px" color="#0B3D20" background-color="#fff" border-radius="90px" font-weight="700" letter-spacing="-0.5px">Claim your Gift</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- Bottom -->
+    <mj-section background-color="#C4ECFF" padding="0px">
+      <mj-column width="100%">
+        <mj-image src="{{ getAssetUrl('themes/'~template~'/assets/bottom.png', null, null, true ) }}" padding="0px">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- Social Media -->
+    <mj-section background-color="#C4ECFF" padding="30px 20px 30px 20px">
+      <mj-column width="100%" padding="0px">
+        <mj-social mode="horizontal" icon-size="24px" padding="0px" inner-padding="8px" border-radius="60px">
+          <mj-social-element name="instagram-noshare" href="#" background-color="#1f446c" icon-padding="4px"></mj-social-element>
+          <mj-social-element name="pinterest-noshare" href="#" background-color="#1f446c" icon-padding="4px"></mj-social-element>
+          <mj-social-element name="linkedin-noshare" href="#" background-color="#1f446c" icon-padding="4px"></mj-social-element>
+        </mj-social>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-text padding="0px" font-weight="500" font-size="14px" line-height="21px" color="#1F446C" align="center">© 2025 Crafting.email</mj-text>
+        <mj-spacer height="15px"></mj-spacer>
+        <mj-text css-class="gp-text" font-family="'DM Sans', Arial, sans-serif" font-weight="500" color="#1F446C" font-size="12px" padding="0px" line-height="14px" align="center">{unsubscribe_text}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section background-color="transparent" padding="20px 20px 30px 20px">
+      <mj-column>
+        <mj-text css-class="gp-text" font-family="'DM Sans', Arial, sans-serif" font-weight="500" color="#1F446C" font-size="12px" padding="0px" line-height="14px" align="center">Crafted with love by <a href="https://www.linkedin.com/in/ricfreire">Ricardo Freire</a>. Illustration from Figma Community by <a href="https://www.figma.com/@brixtemplates">BRIX</a> and Image from Unsplash by <a href="https://unsplash.com/pt-br/@prophsee">Phrophsee</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
